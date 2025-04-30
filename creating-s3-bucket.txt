@@ -5,9 +5,6 @@
      dvc remote remove myremote
 5. aws configure
 
-   AKIAIWABJXHRPNPEVTUE
-   fZfQ60enh7FzUwP2pgw3tj2a3pNJ1jSTSsqABhrc
-
 6. dvc remote add -d myremote s3://campusxproject2bucket
 7. git add
 8. git commit

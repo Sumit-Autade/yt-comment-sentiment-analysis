@@ -1,0 +1,15 @@
+1. create s3 bucket
+2. create IAM user [Ignore if already exists]
+3. pip install dvc[s3] awscli
+4. remove dvc remote
+     dvc remote remove myremote
+5. aws configure
+
+   AKIAIWABJXHRPNPEVTUE
+   fZfQ60enh7FzUwP2pgw3tj2a3pNJ1jSTSsqABhrc
+
+6. dvc remote add -d myremote s3://campusxproject2bucket
+7. git add
+8. git commit
+9. dvc push
+10. git push

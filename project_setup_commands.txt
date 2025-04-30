@@ -1,0 +1,22 @@
+1. Create cookiecutter template:
+    cookiecutter -c v1 http://github.com/drivendata/cookiecutter-data-science
+
+2. Delete files -> rename models to model
+
+3. Create virtual environment:
+    python -m venv myenv
+    myenv\Scripts\activate
+
+4. Create GitHub repo
+
+5. Initialize Git:
+    git init
+
+6. Add git remote:
+    git remote add origin <url>
+
+7. Git commit:
+    git commit
+
+8. Git push:
+    git push
